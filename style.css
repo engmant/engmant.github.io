@@ -1,0 +1,32 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.jumbotron {
+  background: url("header.jpg") local center no-repeat;
+  background-size: cover;
+}
+
+hr {
+  border-style: solid;
+  border-color: orange;
+  width: 50px;
+}
+
+.btn-primary {
+  background-color: orange;
+  border-color: orange;
+  border-radius: 50px;
+}
+
+.btn-primary:hover {
+    background-color: black;
+    border-color: black;
+}
